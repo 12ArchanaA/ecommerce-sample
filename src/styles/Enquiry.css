@@ -1,0 +1,26 @@
+.enquiry-section {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: #155E1E;
+}
+
+.enquiry-content {
+    background-color: #155E1E;
+    color: white;
+    padding: 5%;
+    width: 50%;
+}
+
+.enquiry-image {
+    width: 50%;
+}
+
+.enquiry-image img {
+    height: 100%;
+
+}
+
+hr {
+    color: grey;
+}

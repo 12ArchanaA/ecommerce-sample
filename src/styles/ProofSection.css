@@ -1,0 +1,23 @@
+.proof-section {
+    display: flex;
+    justify-content: center;
+}
+
+.set-1 {
+    display: grid;
+    align-content: space-evenly;
+}
+
+.proof-image img {
+    width: 50%;
+}
+
+.set-1 h3,
+.set-2 h3 {
+    color: #155E1E;
+}
+
+.set-2 {
+    display: grid;
+    align-content: space-evenly;
+}

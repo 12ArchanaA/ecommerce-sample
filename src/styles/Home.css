@@ -1,0 +1,68 @@
+.home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.navbar-part {
+    padding-top: 2%;
+}
+
+.header-part {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 9%;
+}
+
+.para-1 {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.para-2 {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.shop-now-button {
+    width: 184px;
+    height: 48px;
+    top: 409px;
+    left: 628px;
+    border-radius: 50px;
+    /* background-color: #155E1E; */
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.sign-link {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.signing-section {
+    border: 1px solid gray;
+    height: 28px;
+}
+
+a {
+    color: black;
+}
+
+.enquire-button {
+    width: 184px;
+    height: 48px;
+    top: 409px;
+    left: 628px;
+    border-radius: 50px;
+    /* background-color: #155E1E;
+    color: white; */
+    border: none;
+}

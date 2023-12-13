@@ -1,0 +1,21 @@
+.testimonials {
+    gap: 8%;
+    display: grid;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.left-side {
+    width: 30%;
+}
+
+.right-side {
+    width: 70%;
+}
+
+.star-rating {
+    display: flex;
+}

@@ -1,0 +1,132 @@
+.service-list {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 10px;
+}
+
+.service-container {
+    display: grid;
+    grid-gap: 6rem;
+    padding: 3rem;
+}
+
+.service-card-container {
+    border-radius: 0.4rem;
+    overflow: hidden;
+
+}
+
+.service-card-container:hover {}
+
+.service-card {
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+.service-card {
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+
+.service-card:hover {
+    transform: translateY(20px);
+}
+
+.service-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 99, 35, 0.5);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+
+}
+
+.service-card:hover:before {
+    opacity: 1;
+
+}
+
+.service-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.service-card-content {
+    padding: 3rem;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+
+.service-card:hover .service-card-content {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.service-card-content h4 {
+    margin: 0;
+    text-align: start;
+}
+
+.service-card-content p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.learn-more-link {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+}
+
+.learn-more-link p {
+    text-align: end;
+}
+
+@media only screen and (max-width:1035px) {
+    .service-list {
+        padding: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service-container {
+        /* grid-gap: 3rem; */
+    }
+}
+
+@media only screen and (max-width:867px) {
+    .service-list {
+        /* padding: 3rem; */
+        grid-template-columns: 1fr;
+    }
+
+    .service-container {
+        /* grid-gap: 3rem; */
+    }
+}
